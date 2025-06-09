@@ -1,0 +1,386 @@
+<>
+      {useIsMobile(992) ? (
+        <>
+          <section
+            className="discover_blk pad_cmn_blk d-none d-lg-block"
+            ref={sectionRef}
+          >
+            {/**ref={sectionRef} */}
+            <div className="container">
+              <div className="row">
+                <div
+                  className="col-md-5 col-lg-5 pin-column"
+                  ref={pinColumnRef}
+                >
+                  {/**ref={pinColumnRef} */}
+                  <div className="title_blk title-big">
+                    <h2>Discover</h2>
+                    <h4>
+                      what’s next for your organization <br />
+                      with{" "}
+                      <span>
+                        <a href="/">Gwebpro</a>
+                      </span>{" "}
+                      Marketing Inc.
+                    </h4>
+                  </div>
+                  <div className="video-container">
+                    <video
+                      src="images/home-discover.mp4"
+                      autoPlay={true}
+                      loop={true}
+                      muted={true}
+                    ></video>
+                  </div>
+                </div>
+
+                <div
+                  className="col-md-7 col-lg-7 ps-lg-5"
+                  ref={scrollColumnRef}
+                >
+                  {/* ref={scrollColumnRef}*/}
+                  <div className="discover-cards">
+                    <div className="row">
+                      <div className="col-md-6">
+                        <div className="discover-card">
+                          <img src="/images/discover-yellow.png" alt="" />
+                          <h4>Website Design</h4>
+                          <p>
+                            Is a long established fact that a reader will be
+                            distracted by the readable content of a page.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="discover-card">
+                          <img src="/images/discover-yellow.png" alt="" />
+                          <h4>Website Design</h4>
+                          <p>
+                            Is a long established fact that a reader will be
+                            distracted by the readable content of a page.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="discover-card">
+                          <img src="/images/discover-yellow.png" alt="" />
+                          <h4>Website Design</h4>
+                          <p>
+                            Is a long established fact that a reader will be
+                            distracted by the readable content of a page.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="discover-card">
+                          <img src="/images/discover-yellow.png" alt="" />
+                          <h4>Website Design</h4>
+                          <p>
+                            Is a long established fact that a reader will be
+                            distracted by the readable content of a page.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="discover-card">
+                          <img src="/images/discover-yellow.png" alt="" />
+                          <h4>Website Design</h4>
+                          <p>
+                            Is a long established fact that a reader will be
+                            distracted by the readable content of a page.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="discover-card">
+                          <img src="/images/discover-yellow.png" alt="" />
+                          <h4>Website Design</h4>
+                          <p>
+                            Is a long established fact that a reader will be
+                            distracted by the readable content of a page.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="discover-card">
+                          <img src="/images/discover-yellow.png" alt="" />
+                          <h4>Website Design</h4>
+                          <p>
+                            Is a long established fact that a reader will be
+                            distracted by the readable content of a page.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="discover-card">
+                          <img src="/images/discover-yellow.png" alt="" />
+                          <h4>Website Design</h4>
+                          <p>
+                            Is a long established fact that a reader will be
+                            distracted by the readable content of a page.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="discover-card">
+                          <img src="/images/discover-yellow.png" alt="" />
+                          <h4>Website Design</h4>
+                          <p>
+                            Is a long established fact that a reader will be
+                            distracted by the readable content of a page.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="discover-card">
+                          <img src="/images/discover-yellow.png" alt="" />
+                          <h4>Website Design</h4>
+                          <p>
+                            Is a long established fact that a reader will be
+                            distracted by the readable content of a page.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="discover-card">
+                          <img src="/images/discover-yellow.png" alt="" />
+                          <h4>Website Design</h4>
+                          <p>
+                            Is a long established fact that a reader will be
+                            distracted by the readable content of a page.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="discover-card">
+                          <img src="/images/discover-yellow.png" alt="" />
+                          <h4>Website Design</h4>
+                          <p>
+                            Is a long established fact that a reader will be
+                            distracted by the readable content of a page.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </>
+      ) : (
+        <>
+          <section className="discover_blk pad_cmn_blk d-block d-lg-none">
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-12 text-center">
+                  <div className="title_blk title-big">
+                    <h2>Discover</h2>
+                    <h4>
+                      what’s next for your organization <br />
+                      with{" "}
+                      <span>
+                        <a href="/">Gwebpro</a>
+                      </span>{" "}
+                      Marketing Inc.
+                    </h4>
+                  </div>
+                  {windowWidth > 991 && (
+                    <div className="video-container">
+                      <video
+                        src="images/home-discover.mp4"
+                        autoPlay={true}
+                        loop={true}
+                        muted={true}
+                      ></video>
+                    </div>
+                  )}
+                </div>
+
+                <div className="col-12">
+                  <div className="discover-cards">
+                    <div className="row">
+                      <div className="col pe-0 ps-0">
+                        <Slider {...discoverSliderSettings}>
+                          <div className="">
+                            <div className="discover-card">
+                              <img src="/images/discover-yellow.png" alt="" />
+                              <h4>Website Design</h4>
+                              <p>
+                                Is a long established fact that a reader will be
+                                distracted by the readable content of a page.
+                              </p>
+                            </div>
+                          </div>
+                          <div className="">
+                            <div className="discover-card">
+                              <img src="/images/discover-yellow.png" alt="" />
+                              <h4>Website Design</h4>
+                              <p>
+                                Is a long established fact that a reader will be
+                                distracted by the readable content of a page.
+                              </p>
+                            </div>
+                          </div>
+                          <div className="">
+                            <div className="discover-card">
+                              <img src="/images/discover-yellow.png" alt="" />
+                              <h4>Website Design</h4>
+                              <p>
+                                Is a long established fact that a reader will be
+                                distracted by the readable content of a page.
+                              </p>
+                            </div>
+                          </div>
+                          <div className="">
+                            <div className="discover-card">
+                              <img src="/images/discover-yellow.png" alt="" />
+                              <h4>Website Design</h4>
+                              <p>
+                                Is a long established fact that a reader will be
+                                distracted by the readable content of a page.
+                              </p>
+                            </div>
+                          </div>
+                          <div className="">
+                            <div className="discover-card">
+                              <img src="/images/discover-yellow.png" alt="" />
+                              <h4>Website Design</h4>
+                              <p>
+                                Is a long established fact that a reader will be
+                                distracted by the readable content of a page.
+                              </p>
+                            </div>
+                          </div>
+                          <div className="">
+                            <div className="discover-card">
+                              <img src="/images/discover-yellow.png" alt="" />
+                              <h4>Website Design</h4>
+                              <p>
+                                Is a long established fact that a reader will be
+                                distracted by the readable content of a page.
+                              </p>
+                            </div>
+                          </div>
+                          <div className="">
+                            <div className="discover-card">
+                              <img src="/images/discover-yellow.png" alt="" />
+                              <h4>Website Design</h4>
+                              <p>
+                                Is a long established fact that a reader will be
+                                distracted by the readable content of a page.
+                              </p>
+                            </div>
+                          </div>
+                          <div className="">
+                            <div className="discover-card">
+                              <img src="/images/discover-yellow.png" alt="" />
+                              <h4>Website Design</h4>
+                              <p>
+                                Is a long established fact that a reader will be
+                                distracted by the readable content of a page.
+                              </p>
+                            </div>
+                          </div>
+                          <div className="">
+                            <div className="discover-card">
+                              <img src="/images/discover-yellow.png" alt="" />
+                              <h4>Website Design</h4>
+                              <p>
+                                Is a long established fact that a reader will be
+                                distracted by the readable content of a page.
+                              </p>
+                            </div>
+                          </div>
+                          <div className="">
+                            <div className="discover-card">
+                              <img src="/images/discover-yellow.png" alt="" />
+                              <h4>Website Design</h4>
+                              <p>
+                                Is a long established fact that a reader will be
+                                distracted by the readable content of a page.
+                              </p>
+                            </div>
+                          </div>
+                          <div className="">
+                            <div className="discover-card">
+                              <img src="/images/discover-yellow.png" alt="" />
+                              <h4>Website Design</h4>
+                              <p>
+                                Is a long established fact that a reader will be
+                                distracted by the readable content of a page.
+                              </p>
+                            </div>
+                          </div>
+                          <div className="">
+                            <div className="discover-card">
+                              <img src="/images/discover-yellow.png" alt="" />
+                              <h4>Website Design</h4>
+                              <p>
+                                Is a long established fact that a reader will be
+                                distracted by the readable content of a page.
+                              </p>
+                            </div>
+                          </div>
+                        </Slider>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </>
+      )}
+    </>
+
+
+    /* SCROLL BAR CSS START */
+/* Targeting the specific div */
+.scrollable-div {
+  overflow-y: auto; /* Enables vertical scrolling */
+  /* overflow-x: hidden; Prevents horizontal scrolling */
+  scrollbar-width: thin; /* For Firefox */
+  /* scrollbar-color: #c4d8e2 #f5f5f5; Thumb color | Track color */
+}
+
+/* Webkit browsers (Chrome, Safari, Edge, Opera) */
+.scrollable-div::-webkit-scrollbar {
+  width: 6px; /* Slim scrollbar */
+  height: 6px;
+}
+
+/* Scrollbar Track */
+.scrollable-div::-webkit-scrollbar-track {
+  /* background: #f5f5f5; Soft pastel background */
+  border-radius: 10px;
+}
+
+/* Scrollbar Handle (Thumb) */
+.scrollable-div::-webkit-scrollbar-thumb {
+  /* background: #c4d8e2; Pastel blue */
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+/* Scrollbar Thumb on Hover */
+.scrollable-div::-webkit-scrollbar-thumb:hover {
+  /* background: #a3c1d1; Slightly darker pastel for hover effect */
+}
+
+/* Firefox (Gecko Engine) */
+.scrollable-div {
+  scrollbar-width: thin;
+  /* scrollbar-color: #c4d8e2 #f5f5f5; */
+}
+
+/* Edge and IE */
+.scrollable-div {
+  -ms-overflow-style: none; /* Hides default scrollbar in older versions */
+}
+
+.scrollable-div::-webkit-scrollbar-thumb:active {
+  /* background: #89aebf; Darker pastel when clicked */
+}
+
+/* SCROLL BAR CSS END */
