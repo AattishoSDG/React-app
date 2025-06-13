@@ -130,7 +130,7 @@ const AccordionFooter = () => {
 
     {
       id: 3,
-      title: "Blog",
+      title: "Foot",
       address:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit odit recusandae libero.",
 
