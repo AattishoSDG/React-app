@@ -27,3 +27,4 @@ jobs:
         context: .
         push: true
         tags: aattisho/react-app:latest  # Make sure "aattisho" matches your actual Docker Hub username
+
